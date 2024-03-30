@@ -51,7 +51,7 @@ chat.setAttribute("id", "aifactory-chat-screen"),
   (chat.style.zIndex = 999999999),
   (chat.style.overflow = "hidden"),
   document?.body?.appendChild(chat),
-  (chat.innerHTML = `<iframe\nsrc="${scriptTag.url}/chat/${scriptTag.id}"\nwidth="100%"\nheight="100%"\nframeborder="0"\nid="ifarme"\n></iframe>`);
+  (chat.innerHTML = `<iframe\nsrc="https://app-chatbizz.dhibot.com/chat/${scriptTag.id}"\nwidth="100%"\nheight="100%"\nframeborder="0"\nid="ifarme"\n></iframe>`);
 const mediaQuery = window.matchMedia("(min-width: 550px)");
 
 function handleChatWindowSizeChange(t) {
